@@ -1,0 +1,90 @@
+#back{
+  text-align: right;
+  margin: 0;
+}
+
+body{
+  margin-bottom: 15px;
+}
+
+main{
+  text-align: justify;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1{
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2{
+  margin: 10px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2 a{
+  color: #333;
+}
+
+h3{
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+blockquote{
+  font-size: 1em;
+  margin: 8px 0;
+}
+
+blockquote p{
+  margin: 0;
+}
+
+blockquote:hover{
+  background-color: #EEE;
+}
+
+p{
+  margin: 8px 0;
+}
+
+hr{
+  margin: 10px 0;
+}
+
+#TOC a{
+  color: #333;
+}
+
+#TOC a:hover{
+  text-decoration: underline;
+}
+
+table {
+  text-align: left;
+}
+
+tbody tr:hover{
+  background-color: #EEE;
+}
+
+.inline-container-narrow{
+  display: inline-block;
+  width: 60px;
+  font-weight: bold;
+}
+
+.inline-container-wide{
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.social-media-icon{
+  width: 15px;
+  margin: 0 10px;
+}

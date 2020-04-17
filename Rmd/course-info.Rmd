@@ -1,0 +1,32 @@
+---
+title: 'Course Information'
+# author: "Davis, Frankie"
+# date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  rmarkdown::html_document:
+    # toc: true
+    theme: cosmo
+    css: style.css
+---
+
+***************************************
+
+<main>
+
+<div id="back">
+[Back](index.html)
+</div>
+
+## PHYS3061
+
+> This is a project-oriented course on computer simulation, emphasizing the setting up of physical models, the development of algorithms for the models, data analysis and graphical techniques. Topics include: the cooling problem, single and many particle dynamics, chaotic dynamics, random processes, wave phenomena, and electrostatic problems.
+
+## PHYS4061
+
+> This course is intended to provide a solid training in the computational techniques for solving various physical problems. The following topics will be discussed: basic numerical methods, matrix problems in physics, numerical methods for partial differential equations in physics, modelling of continuous systems, and applications of Monte Carlo simulation in statistical physics.
+
+## RMSC4002
+
+> This course covers modern data analysis techniques that are commonly used in finance and risk management. Topics include applications of multivariate techniques for data cleansing and modeling such as principal component analysis and canonical correlation analysis to asset management, Extreme Value theory, Value-at-Risks, GARCH modeling in estimating volatility, time series methods in term-structure analysis. Besides, the next few introductory topics in machine learning will also be covered, such as recommender system, logistic regression, k-means clustering, perceptrons, decision trees, artificial neural network, stochastic gradient descent, Naive Bayes Classifiers and Bayesian networks.
+
+</main>

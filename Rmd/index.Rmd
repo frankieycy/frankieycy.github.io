@@ -1,0 +1,68 @@
+---
+title: "My Project Hub"
+author: "Frankie Yeung"
+# date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  rmarkdown::html_document:
+    includes:
+      before_body: header.html
+      after_body: footer.html
+    toc: true
+    toc_depth: 2
+    theme: cosmo
+    css: style.css
+---
+
+***************************************
+
+<main>
+
+## This site
+
+This is a project hub that hosts my computing projects and classworks, which span physics, computer science and finance. Links below redirect to the GitHub repos and reports. I am a 3rd year physics student at the Chinese University of Hong Kong, and aim at a financial engineering postgrad.
+
+***************************************
+
+## Projects
+
+### Physics
+
+| Title | Description |
+| ----- | ----------- |
+| Crystal geometry optimization<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) implemented a three-body potential (Tersoff potential) on crystals<br>(ii) optimized (or relaxed) crystal geometry such as atomic spacings and positions using steepest gradient and conjugate gradient optimization scheme<br>[codes](https://github.com/frankieycy/crystal-optimisation) [report]() |
+| Molecular simulation<br>(_course project - [PHYS3061](course-info.html#phys3061)_) | (i) simulated the molecular dynamics of an interacting gas under Lennard-Jones potential<br>(ii) investigated the radial distribution of particles and temperature variation when coupled to a heat bath<br>(iii) tested the accuracy of numerous iterative schemes (e.g. Euler, Euler-Cromer, Verlet algorithm) by observing how energy is conserved |
+| Crowd simulation<br>(_course project - [PHYS3061](course-info.html#phys3061)_) | (i) simulated escape panic in different environmental settings (e.g. long corridor, open area) by a mechanical model of human interaction<br>(ii) analyzed the escape efficiency and congestion subject to corridor size and panic parameters<br>[codes]() [report](https://drive.google.com/open?id=1GEi4yqK3EG2BpgSe4d0epMcw3zSGdl7h) |
+| Nano equilibrium shapes<br>(_CUHK summer intern, 2019_) | modeled equilibrium shapes of 2D nano-materials including MoSe2 and Bi2Se3 by minimizing edge formation energies computed with a first-principle, supercomputing approach |
+
+### Computer science
+
+| Title | Description |
+| ----- | ----------- |
+| Graph algorithms<br>(_individual project_) | (i) wrote up a priority queue and graph class in C++<br>(ii) implemented graph search algorithms, such as Dijkstra's shortest path search and Prim's minimum spanning tree algorithm<br>[codes](https://github.com/frankieycy/graph-algorithm) [sample](https://github.com/frankieycy/graph-algorithm/blob/master/main.out) |
+| Hex game and AI<br>(_individual project_) | (i) wrote up an interface for the Hex board game in C++, built upon my graph class and algorithms<br>(ii) implemented AI game strategies (e.g. Monte Carlo selection of moves, alpha-beta minimax) for human-machine play<br>[codes](https://github.com/frankieycy/hex-game) [sample](https://github.com/frankieycy/hex-game/blob/master/main.out) (ongoing project) |
+
+### Finance
+
+| Title | Description |
+| ----- | ----------- |
+| Market simulation<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) modeled stock price dynamics with the Ising spin model from physics by a Monte Carlo approach<br>(ii) performed statistical tests to examine resemblance to real data in terms of non-normality, tail distribution and autocorrelation<br>[codes](https://github.com/frankieycy/ising-stock) [report](https://drive.google.com/open?id=1nDeWmzLs3zxIkhyL3w2mGlWpbIRBVL5k) |
+| Technical trading simulation<br>(_course project - [RMSC4002](course-info.html#rmsc4002)_) | (i) implemented a buy-and-hold trading strategy according to technical indicator $\mu/\sigma^2$, with $\sigma$ computed from EWMA and GARCH(1,1) model<br>(ii) performed historical backtesting to analyze returns and value at risk<br>[codes]() [report](https://drive.google.com/open?id=18PxDDSq8fbkepGPk4h6fH3ejorru2qzs) |
+
+***************************************
+
+## Awards
+
+| Award | About |
+| ----- | ----------- |
+| Dean's Honors List<br>(_CUHK Science Faculty, 2018 & 2019_) |  |
+| [InnoTech Scholarship](https://innotechscholarship.hkfyg.org.hk/en/aim-of-the-scholarship/)<br>(_InnoTech Commission & HSBC, 2019_) | (i) acknowledged my academic achievement in science, devotion to innovation & technology, and passion in making science popular<br>(ii) sponsored my exchange program to UC Berkeley in Spring 2020<br>[CUHK press release](https://www.cpr.cuhk.edu.hk/en/press_detail.php?id=3015&t=six-cuhk-students-awarded-the-innovation-and-technology-scholarship) [HKEJ report](http://startupbeat.hkej.com/?p=74912) |
+
+***************************************
+
+## Certificates
+
+* (_Coursera_) Financial Engineering and Risk Management Part [I](https://www.coursera.org/account/accomplishments/certificate/4QM7VMM6MFA3),[II](https://www.coursera.org/account/accomplishments/certificate/VATN6AHFHQDV), Columbia University
+* (_Coursera_) [Financial Accounting Fundamentals](https://www.coursera.org/account/accomplishments/certificate/HRYX4A58SDJ3), University of Virginia
+* (_Coursera_) C++ for C Programmers Part [A](https://www.coursera.org/account/accomplishments/certificate/GE2FSAR58TRZ),[B](), UC Santa Cruz
+
+</main>

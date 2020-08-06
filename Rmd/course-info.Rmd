@@ -25,6 +25,10 @@ output:
 
 > This course is intended to provide a solid training in the computational techniques for solving various physical problems. The following topics will be discussed: basic numerical methods, matrix problems in physics, numerical methods for partial differential equations in physics, modelling of continuous systems, and applications of Monte Carlo simulation in statistical physics.
 
+## PHYS4610
+
+> A project in experimental or theoretical physics, either in research or in reviewing the literature.
+
 ## RMSC4002
 
 > This course covers modern data analysis techniques that are commonly used in finance and risk management. Topics include applications of multivariate techniques for data cleansing and modeling such as principal component analysis and canonical correlation analysis to asset management, Extreme Value theory, Value-at-Risks, GARCH modeling in estimating volatility, time series methods in term-structure analysis. Besides, the next few introductory topics in machine learning will also be covered, such as recommender system, logistic regression, k-means clustering, perceptrons, decision trees, artificial neural network, stochastic gradient descent, Naive Bayes Classifiers and Bayesian networks.

@@ -19,7 +19,7 @@ output:
 
 ## This site
 
-This is a project hub that hosts my computing projects and classworks, which span physics, computer science and finance. Links below redirect to the GitHub repos and reports. I am a 4th year physics student at the Chinese University of Hong Kong, and aim at a financial engineering postgrad.
+This is a project hub that hosts my computing projects and classworks, which span physics, computer science and finance. Links below redirect to the GitHub repos and reports. I am a final year physics student at the Chinese University of Hong Kong, and aim at a financial engineering / financial math postgrad.
 
 ***************************************
 
@@ -29,11 +29,11 @@ This is a project hub that hosts my computing projects and classworks, which spa
 
 | Title | Description |
 | ----- | ----------- |
-| Neuronal network analysis<br>(_final-year project - [PHYS4610](course-info.html#phys4610)_) | (i) recovered neuronal network connectivity from experimental time series data<br>(ii) analyzed model-generated time series data and drew comparison with experimental data in terms of spiking activities<br>(iii) investigated network features that potentially lead to heavy-tailed spiking activities<br>[codes](https://github.com/frankieycy/network) [report]() (ongoing project) |
-| Crystal geometry optimization<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) implemented a three-body potential (Tersoff potential) on crystals<br>(ii) optimized (or relaxed) crystal geometry such as atomic spacings and positions using steepest gradient and conjugate gradient optimization scheme<br>[codes](https://github.com/frankieycy/crystal-optimisation) [report]() |
+| Neuronal network analysis<br>(_final year thesis - [PHYS4610](course-info.html#phys4610)_) | (i) recovered neuronal network connectivity from experimental time series data<br>(ii) Explored different network models, analyzed model-generated time series data and drew comparison with experimental data in terms of spiking activities using Python<br>(iii) investigated network features that potentially lead to heavy-tailed spiking activities<br>[codes](https://github.com/frankieycy/network) (ongoing project) |
+| Crystal geometry optimization<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) implemented a three-body potential (Tersoff potential) on crystals<br>(ii) Optimized crystal geometry by relaxing atomic spacings and positions using steepest gradient and conjugate gradient optimization schemes<br>[codes](https://github.com/frankieycy/crystal-optimisation) |
 | Molecular simulation<br>(_course project - [PHYS3061](course-info.html#phys3061)_) | (i) simulated the molecular dynamics of an interacting gas under Lennard-Jones potential<br>(ii) investigated the radial distribution of particles and temperature variation when coupled to a heat bath<br>(iii) tested the accuracy of numerous iterative schemes (e.g. Euler, Euler-Cromer, Verlet algorithm) by observing how energy is conserved |
-| Crowd simulation<br>(_course project - [PHYS3061](course-info.html#phys3061)_) | (i) simulated escape panic in different environmental settings (e.g. long corridor, open area) by a mechanical model of human interaction<br>(ii) analyzed the escape efficiency and congestion subject to corridor size and panic parameters<br>[codes]() [report](https://drive.google.com/open?id=1GEi4yqK3EG2BpgSe4d0epMcw3zSGdl7h) |
-| Nano equilibrium shapes<br>(_CUHK summer intern, 2019_) | modeled equilibrium shapes of 2D nano-materials including MoSe2 and Bi2Se3 by minimizing edge formation energies computed with a first-principle, supercomputing approach |
+| Crowd simulation<br>(_course project - [PHYS3061](course-info.html#phys3061)_) | (i) Simulated escape panic in different environmental settings by a realistic mechanical model of human interaction that incorporates physical and psychological factors<br>(ii) Analyzed escape efficiency and congestion subject to corridor size, shape and panic parameters<br>[report](https://drive.google.com/open?id=1GEi4yqK3EG2BpgSe4d0epMcw3zSGdl7h) |
+| Nano equilibrium shapes<br>(_CUHK summer intern, 2019_) | Modeled equilibrium shapes of growing 2D nano-materials including MoSe2 and Bi2Se3 by minimizing thermodynamic edge formation energies computed through a quantum mechanical first-principle approach |
 
 ### Computer science
 
@@ -46,8 +46,8 @@ This is a project hub that hosts my computing projects and classworks, which spa
 
 | Title | Description |
 | ----- | ----------- |
-| Market simulation<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) modeled stock price dynamics with the Ising spin model from physics by a Monte Carlo approach<br>(ii) performed statistical tests to examine resemblance to real data in terms of non-normality, tail distribution and autocorrelation<br>[codes](https://github.com/frankieycy/ising-stock) [report](https://drive.google.com/open?id=1nDeWmzLs3zxIkhyL3w2mGlWpbIRBVL5k) |
-| Technical trading simulation<br>(_course project - [RMSC4002](course-info.html#rmsc4002)_) | (i) implemented a buy-and-hold trading strategy according to technical indicator $\mu/\sigma^2$, with $\sigma$ computed from EWMA and GARCH(1,1) model<br>(ii) performed historical backtesting to analyze returns and value at risk<br>[codes]() [report](https://drive.google.com/open?id=18PxDDSq8fbkepGPk4h6fH3ejorru2qzs) |
+| Technical trading simulation<br>(_course project - [RMSC4002](course-info.html#rmsc4002)_) | (i) Implemented an optimal buy-and-hold trading strategy according to technical indicator $\mu/\sigma^2$, where volatility $\sigma$ is computed from time series models such as EWMA and GARCH(1,1) using R<br>(ii) Performed historical backtesting to analyze returns, Sharpe ratios and risk metrics such as value at risk and expected shortfall<br>[report](https://drive.google.com/open?id=18PxDDSq8fbkepGPk4h6fH3ejorru2qzs) |
+| Market simulation<br>(_course project - [PHYS4061](course-info.html#phys4061)_) | (i) Modeled stock price dynamics with the Ising spin model from physics (which is comparable to the stock market with mutually interacting participants) through a Monte Carlo simulation approach using C<br>(ii) performed statistical tests to examine resemblance to real data in terms of non-normality, tail distribution and autocorrelation<br>(iii) The model exhibits heavy-tailed returns and autocorrelations that resemble real data<br>[codes](https://github.com/frankieycy/ising-stock) [report](https://drive.google.com/open?id=1nDeWmzLs3zxIkhyL3w2mGlWpbIRBVL5k) |
 
 ***************************************
 
@@ -56,12 +56,14 @@ This is a project hub that hosts my computing projects and classworks, which spa
 | Award | About |
 | ----- | ----------- |
 | Dean's Honors List<br>(_CUHK Science Faculty, 2018 & 2019_) |  |
-| [InnoTech Scholarship](https://innotechscholarship.hkfyg.org.hk/en/aim-of-the-scholarship/)<br>(_InnoTech Commission & HSBC, 2019_) | (i) acknowledged my academic achievement in science, devotion to innovation & technology, and passion in making science popular<br>(ii) sponsored my exchange program to UC Berkeley in Spring 2020<br>[CUHK press release](https://www.cpr.cuhk.edu.hk/en/press_detail.php?id=3015&t=six-cuhk-students-awarded-the-innovation-and-technology-scholarship) [HKEJ report](http://startupbeat.hkej.com/?p=74912) |
+| [InnoTech Scholarship](https://innotechscholarship.hkfyg.org.hk/en/aim-of-the-scholarship/) / HSBC Scholar<br>(_InnoTech Commission & HSBC, 2019_) | (i) acknowledged my academic achievement in science, devotion to innovation & technology, and passion in making science popular<br>(ii) sponsored my exchange program to UC Berkeley in Spring 2020<br>[CUHK press release](https://www.cpr.cuhk.edu.hk/en/press_detail.php?id=3015&t=six-cuhk-students-awarded-the-innovation-and-technology-scholarship) [HKEJ report](http://startupbeat.hkej.com/?p=74912) |
 
 ***************************************
 
 ## Certificates
 
+* (_CFA_) Level I Pass
+* (_FRM_) Level I Pass
 * (_Coursera_) Financial Engineering and Risk Management Part [I](https://www.coursera.org/account/accomplishments/certificate/4QM7VMM6MFA3),[II](https://www.coursera.org/account/accomplishments/certificate/VATN6AHFHQDV), Columbia University
 * (_Coursera_) [Financial Accounting Fundamentals](https://www.coursera.org/account/accomplishments/certificate/HRYX4A58SDJ3), University of Virginia
 * (_Coursera_) C++ for C Programmers Part [A](https://www.coursera.org/account/accomplishments/certificate/GE2FSAR58TRZ),[B](https://www.coursera.org/account/accomplishments/certificate/KZUCHSYZDMDM), UC Santa Cruz

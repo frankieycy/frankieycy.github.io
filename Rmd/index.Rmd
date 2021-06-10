@@ -1,53 +1,53 @@
 ---
-title: "My Project Hub"
-author: "Frankie Yeung"
+title: "Project Hub"
+author: "Frankie"
 # date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   rmarkdown::html_document:
     includes:
       before_body: header.html
       after_body: footer.html
-    toc: true
-    toc_depth: 2
+    toc: false
+    # toc_depth: 2
     theme: cosmo
     css: style.css
 ---
 
 ***************************************
 
-<main>
+<!-- <main> -->
 
-## This site
+<!-- ## This site -->
 
-This is a project hub that hosts my computing projects and classworks, which span physics, computer science and finance. Links below redirect to the GitHub repos.
+<!-- This is a project hub that hosts my computing projects and classworks, which span physics, computer science and finance. Links below redirect to the GitHub repos. -->
 
-***************************************
+<!-- *************************************** -->
 
 ## Projects
 
-### Physics
-
-| Topic | My work |
-| ----- | ----------- |
-| Neuronal network analysis (Python)<br>(Final year project) | (i) Recovered neuronal network connectivity from experimental time series data<br>(ii) Explored different dynamical models of network, analyzed model-generated time series data to extract spikes and drew comparison with experimental data in terms of spiking activities<br>(iii) Investigated network features that potentially lead to heavy-tailed spiking activities through regression and cluster analysis<br>[network model](https://github.com/frankieycy/spiking-neuron-model)<br>[network reconstruction](https://github.com/frankieycy/fncch) |
-| Crystal geometry optimization (C)<br>(Course project) | (i) Implemented an empirical three-body potential (Tersoff potential) on crystals that captures atomic angular dependences<br>(ii) Optimized crystal geometry of an initially perturbed configuration of atoms by relaxing atomic spacings and positions using steepest gradient and conjugate gradient optimization schemes that were efficiently coded<br>[codes](https://github.com/frankieycy/crystal-optimisation) |
-| Molecular simulation (C)<br>(Course project) | (i) Simulated the molecular dynamics of an interacting gas under Lennard-Jones potential<br>(ii) Investigated the radial distribution of particles and temperature variation when coupled to a heat bath<br>(iii) Tested the accuracy of numerous iterative schemes (e.g. Euler, Euler-Cromer, Verlet algorithm) by observing how energy is conserved |
-| Dynamical features of escape panic (C)<br>(Course project) | (i) Simulated escape panic in different environmental settings such as a smoky room and a long corridor with obstacles by a realistic mechanical model of human interaction that incorporates physical and psychological factors<br>(ii) Analyzed escape efficiency and congestion subject to corridor size, shape, pedestrian flow and panic parameters<br>(iii) The model recovers real-world crowd behaviors including jams, incoordination and herding tendency |
-| Nano-material modeling (VASP)<br>(Research intern) | Modeled equilibrium shapes of growing 2D nano-materials including MoSe2 and Bi2Se3 by minimizing thermodynamic edge formation energies computed through a quantum mechanical first-principle approach |
-
-### Computer science
-
-| Topic | My work |
-| ----- | ----------- |
-| Hex game and AI (C++)<br>(Individual project) | (i) Wrote up an interface for the Hex board game in C++, built upon my graph class and algorithms<br>(ii) Implemented AI game strategies (e.g. Monte Carlo selection of moves, alpha-beta minimax) for human-machine play<br>[codes](https://github.com/frankieycy/hex-game)<br>[sample](https://github.com/frankieycy/hex-game/blob/master/main.out) |
-| Graph algorithms (C++)<br>(Individual project) | (i) Wrote up a priority queue and graph class in C++<br>(ii) Implemented graph search algorithms, such as Dijkstra's shortest path search and Prim's minimum spanning tree algorithm<br>[codes](https://github.com/frankieycy/graph-algorithm)<br>[sample](https://github.com/frankieycy/graph-algorithm/blob/master/main.out) |
-
 ### Finance
 
-| Topic | My work |
+| Topic | Work |
 | ----- | ----------- |
-| Technical trading simulation (R)<br>(Course project) | (i) Implemented a buy-and-hold trading strategy on Hong Kong equities according to technical indicator $\mu/\sigma^2$ with an optimized threshold, where the moving volatility $\sigma$ was estimated from time series models such as EWMA and GARCH(1,1)<br>(ii) Performed historical backtesting to analyze returns, Sharpe ratios and risk metrics such as value at risk and expected shortfall |
-| A spin model of market (C)<br>(Course project) | (i) Applied Monte Carlo simulation to model stock price dynamics with the Ising spin model, which consists of coupled spins with stochastic flip decisions depending on the mean-field spin (this mimics the stock market with interacting participants)<br>(ii) Performed statistical tests to examine resemblance to real data in terms of non-normality, tail distribution and autocorrelation<br>(iii) The model exhibits the “stylized facts” of assets including heavy-tailed returns, long memory and volatility clustering<br>[codes](https://github.com/frankieycy/ising-stock) |
+| Option Pricing (C++) | Developed an object-oriented option pricing library that<br>(1) supports efficient valuation of vanilla & exotic contracts and Greeks calculation via binomial tree, numerical integration, PDE schemes and Monte Carlo simulation, accommodating various stock price and interest rate stochastic processes<br>(2) streamlines market data to compute and construct implied vol surface with live tabulation as well as visualize Greeks vs strike price curves on an interactive Python dashboard using Dash and Plotly package |
+| Technical Trading Simulation (R) | • Implemented a buy-and-hold trading strategy on Hong Kong blue-chips with trading decision informed by technical indicator $\mu/\sigma^2$ with a threshold optimized over 100 stocks, estimating the drift $\mu$ from moving average with a volatility-based dynamic window and the instantaneous vol $\sigma$ from time series models like EWMA and GARCH<br>• Performed historical backtest by calibrating to a 2-year window and then simulating trades over 15 years iterating over 50 blue-chips, quantified the strategy by analyzing return distribution stats, risk-return ratios and risk metrics like VaR and ES |
+| Spin Model of Market (C) | • Applied Monte Carlo simulation to model stock price dynamics with the Ising spin model, which consists of discrete-state coupled spins with stochastic flip decisions depending on the mean-field spin, historical states and neighboring spin grids to realistically mimic the stock market with interacting traders psychologically impacted by broad market sentiment<br>• Performed statistical tests on resemblance to real stock prices in terms of non-normality, tail distribution and autocorrelation<br>• Calibrated parameters to generate “stylized facts” of asset like heavy-tailed returns, long memory and volatility clustering |
+
+### Physics
+
+| Topic | Work |
+| ----- | ----------- |
+| Network Modeling (Python) | • Reconstructed neuron connectivity matrix from electrical signal series of rat cortical neuron cultures by a correlation-based algorithm and a noise-induced covariance method using Python, implemented on computing cloud with efficient vectorization and parallelization, offering a 20x improvement in speed<br>• Compared the matrix reconstruction from the two algorithms using accuracy metrics such as sensitivity and specificity<br>• Explored different dynamical models of network, implemented network models following academia papers and simulated time series variables from the large system of sparse coupled stochastic differential equations representing over 4000 neurons<br>• Analyzed model-generated signal series for numerical spike detection and drew comparison with experimental data in terms of spiking activity and spike distributional statistics to evaluate the performance of different models<br>• Investigated network features causing the long-tailed spike counts through regression and cluster analysis on the large dataset of network parameters including total spike counts, node degrees and average coupling strengths<br>• Proposed a network shuffling technique that allows for marginal manipulation of network features to study the impacts of a network feature on total spike count distribution, and concluded the statistical significance of incoming coupling strength |
+| Crystal Geometry Optimization (C) | • Implemented an empirical three-body potential (Tersoff potential) on crystals that captures atomic angular dependences<br>• Optimized crystal geometry of an initially perturbed configuration of atoms by relaxing atomic spacings and positions using steepest gradient and conjugate gradient optimization schemes that were efficiently coded |
+| Molecular Simulation (C) | • Simulated the molecular dynamics of an interacting gas under Lennard-Jones potential<br>• Investigated the radial distribution of particles and temperature variation when coupled to a heat bath<br>• Tested the accuracy of numerous iterative schemes (e.g. Euler, Euler-Cromer, Verlet algorithm) by observing how energy is conserved |
+| Dynamical Features of Escape Panic (C) | • Simulated escape panic in different environmental settings such as a smoky room and a long corridor with obstacles by a realistic mechanical model of human interaction that incorporates physical and psychological factors<br>• Analyzed escape efficiency and congestion subject to corridor size, shape, pedestrian flow and panic parameters<br>• The model recovers real-world crowd behaviors including jams, incoordination and herding tendency |
+
+<!-- ### Computer Science -->
+
+<!-- | Topic | Work | -->
+<!-- | ----- | ----------- | -->
+<!-- | Hex game and AI (C++) | • Wrote up an interface for the Hex board game in C++, built upon my graph class and algorithms<br>• Implemented AI game strategies (e.g. Monte Carlo selection of moves, alpha-beta minimax) for human-machine play | -->
+<!-- | Graph Algorithms (C++) | • Wrote up a priority queue and graph class in C++<br>• Implemented graph search algorithms, such as Dijkstra's shortest path search and Prim's minimum spanning tree algorithm | -->
 
 <!-- *************************************** -->
 
